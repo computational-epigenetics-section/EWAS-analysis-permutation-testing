@@ -18,7 +18,7 @@ This is a suite which enables to calculate the enrichment ratios of 100,000 perm
 
 1) Add the probe list CSV file of the disease to `Data` folder.
 
-- The file name should end with "all_probes.csv". Ex: `neurological_all_probes.csv` or `Insulin Resistance_all_probes.csv` or `Diabetes Mellitus, Type 2_all_probes.csv`
+- The file name should end with "_all_probes.csv". Ex: `neurological_all_probes.csv` or `Insulin Resistance_all_probes.csv` or `Diabetes Mellitus, Type 2_all_probes.csv`
 
 2) Use the `permutation_testing.slrum` to run permutation testing.
 
