@@ -6,7 +6,7 @@ This is a suite which enables to calculate the enrichment ratios of 100,000 perm
 
 - `Data` - This has all the input files for the permutation testing including the probe lists for each disease.
 
-- `permuted_sets` - This includes 100,000 files. Each files contains permuted CoRSIV and control probes. This is the output of `get_permutations.py`. Because of the large size of this file, it was not added here. It's located the cluster.
+- `permuted_sets` - This includes 100,000 files. Each files contains permuted CoRSIV and control probes. This is the output of `get_permutations.py`. Due to the large size of this file, it was not added here. It's located in the SPHERE cluster (/home/maduranga/Permutation_testing_code_SPHERE).
 
 - `p1.py` to `p10.py` - Calculate enrichment ratios for 100,000 permuted sets. Each file processes 10,000 sets which can be run in parallel if needed.
 
